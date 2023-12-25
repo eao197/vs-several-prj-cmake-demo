@@ -37,3 +37,6 @@ cmake_build*/
 # ViM temporary files
 .*.sw?
 
+# Visual Studio files
+.vs/
+out/
