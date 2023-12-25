@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# CMake related stuff
+cmake_build*/
+
+# ViM temporary files
+.*.sw?
+
