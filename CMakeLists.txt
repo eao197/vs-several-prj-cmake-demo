@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 cmake_policy(SET CMP0091 NEW)
 cmake_policy(SET CMP0077 NEW)
 
-#set(VCPKG_FEATURE_FLAGS versions)
+set(VCPKG_FEATURE_FLAGS versions)
 
 project(vs_demo_project)
 
@@ -28,7 +28,7 @@ endif()
 
 add_subdirectory(core-functionality)
 add_subdirectory(hello-app)
-add_subdirectory(core-test)
 
-#enable_testing()
-#add_subdirectory(tests)
+enable_testing()
+
+add_subdirectory(core-test)
